@@ -1,0 +1,59 @@
+.data{
+    display: block;
+}
+.row{
+    padding-top: 7vh;
+    width: 98vw;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 400px;
+    height: 250px;
+    /* background-color: rgb(54, 143, 54); */
+    margin: 10px;
+    padding: 11px;
+}
+.card_main{
+    
+}
+.card_name{
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    padding-top: 20px;
+}
+.card_name span{
+    font-size: 18px;
+    margin: 5px;
+
+}
+.card_total{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.country{
+    background-color: rgb(8, 47, 94);
+}
+.recovered{
+    background-color: rgb(108, 176, 48);
+}
+.confirmed{
+    background-color: rgb(185, 185, 46);
+}
+.deaths{
+    background-color: rgb(253, 165, 2);
+}
+.active{
+    background-color: rgb(239, 69, 81);
+
+}
+.lastupdatedtime{
+    background-color: rgb(91, 91, 26); ;
+}
